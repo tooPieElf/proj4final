@@ -1,0 +1,135 @@
+    1  ls
+    2  cd project-ml-microservice-kubernetes/
+    3  ls
+    4  bash resize.sh 
+    5  bash resize.sh 100
+    6  clear
+    7  make setup
+    8  source ~/.devops/bin/activate
+    9  make install
+   10  chmod +x ./hadolint
+   11  ls
+   12  make lint
+   13  make install
+   14  chmod +x ./hadolint
+   15  make lint
+   16  clear
+   17  curl -LD https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   18  wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   19  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   20  minikube version
+   21  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+   22  clear
+   23  sudo chmod +x ./kubectl 
+   24  sudo mv ./kubectl /usr/local/bin/kubectl
+   25  kubectl version -o json
+   26  docker version
+   27  make lint
+   28  clear
+   29  bash run_docker.sh 
+   30  docker build --tag-omegapasky/finalproj
+   31  docker build --tag omegapasky/finalproj
+   32  docker build -t omegapasky/finalproj
+   33  docker build --help
+   34  docker build --tag omegapasky/finalproj
+   35  docker build --t omegapasky/finalproj
+   36  docker build -t omegapasky/finalproj
+   37  ls
+   38  clear
+   39  docker login
+   40  docker images ps
+   41  docker build --tag omegapasky/finalproj
+   42  docker build --tag-omegapasky/finalproj
+   43  docker build --tag-omegapasky/finalproj .
+   44  docker build --tag omegapasky/finalproj .
+   45  docker images ls
+   46  clear
+   47  bash run_docker.sh
+   48  docker run -p 8000:80 omegapasky/finalproj
+   49  docker ps
+   50  docker images ls
+   51  docker images ps
+   52  docker images
+   53  docker run -p 8000:80  omegapasky/finalproj
+   54  docker run -p 8000:80  omegapasky/finalproj --verbose
+   55  clear
+   56  bash run_docker.sh
+   57  ls
+   58  cd project-ml-microservice-kubernetes/
+   59  ls
+   60  make setup
+   61  source ~/.devops/bin/activate
+   62  bash make_prediction.sh 
+   63  touch docker_out.txt
+   64  cd project-ml-microservice-kubernetes/
+   65  bash upload_docker.sh 
+   66  clear
+   67  minikube start
+   68  bash run_kubernetes.sh 
+   69  (.devops) voclabs:~/environment/project-ml-microservice-kubernetes $ bash make_prediction.sh 
+   70  Port: 8000
+   71  {   "prediction": [;     20.35373177134412;   ]
+   72  source ~/.devops/bin/activate
+   73  bash run_kubernetes.sh 
+   74  ls
+   75  clear
+   76  echo "# proj4final" >> README.md
+   77  git init
+   78  git add README.md
+   79  git commit -m "first commit"
+   80  git branch -M main
+   81  git remote add origin https://github.com/tooPieElf/proj4final.git
+   82  git push -u origin main
+   83  git init
+   84  git config --global
+   85  git config --global user.name "toopieelf"
+   86  git config --global user.email "ndimnezechukwudi@gmail.com"
+   87  git config --global --list
+   88  git config --global user.password "qb/m2pie"
+   89  git push -u origin main
+   90  git status
+   91  git add .
+   92  git commit -m "project 4 upload"
+   93  git branch -M main
+   94  git remote add origin https://github.com/tooPieElf/proj4final.git
+   95  git push -u origin main
+   96  gh auth login
+   97  github auth login
+   98  git auth login
+   99  MY OWN GIT
+  100  git push -u origin main
+  101  ls
+  102  ld -la
+  103  ls -la
+  104  git add .
+  105  git commit -m "modified cirleci script"
+  106  git push origin main
+  107  git push -u origin main
+  108  git status
+  109  git add .
+  110  git push -u origin main
+  111  git add .
+  112  git commit -m"update files for circleci"
+  113  git push -u origin main
+  114  git status
+  115  git add .
+  116  fir commit -m"add update config for circleci"
+  117  git commit -m"add update config for circleci"
+  118  git push -u origin main
+  119  git ad .
+  120  git add .
+  121  git commit -m"format yaml"
+  122  git add 
+  123  git add .
+  124  git commit -m"format yml"
+  125  git push -u origin main
+  126  git add .
+  127  git commit -m" problems no dey finish"
+  128  git push -u origin main
+  129  git add .
+  130  git commit -m" problems no dey finish"
+  131  git push -u origin main
+  132  git add .
+  133  git commit -m" problems no dey finish"
+  134  git push -u origin main
+  135  history > cmds.txt
